@@ -4,7 +4,7 @@
   "main": "form-filler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "init": "cp node_modules/pdf-lib/dist/pdf-lib.js pdf-lib.js"
+    "postinstall": "cp node_modules/pdf-lib/dist/pdf-lib.js pdf-lib.js"
   },
   "author": "",
   "license": "ISC",
